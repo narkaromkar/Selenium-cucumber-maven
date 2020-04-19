@@ -1,0 +1,80 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "User is able to Sign in successfully",
+        "description": "",
+        "id": "shopping-website-test;user-is-able-to-sign-in-successfully",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11415463400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens browser",
+            "match": {
+              "location": "StepDefination.user_opens_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1107749500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on login page",
+            "match": {
+              "location": "StepDefination.user_is_on_login_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2160500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters \"username\" and \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "username",
+                  "offset": 13
+                },
+                {
+                  "val": "password",
+                  "offset": 28
+                }
+              ],
+              "location": "StepDefination.user_enters_and(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 14000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user cicks on sign-in button",
+            "match": {
+              "location": "StepDefination.user_cicks_on_sign_in_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Shopping website test",
+    "description": "",
+    "id": "shopping-website-test",
+    "keyword": "Feature",
+    "uri": "C:/Users/Omkar/eclipse-workspace/Selenium-cucumber-maven/src/main/java/feature/Selenium-cucumber-maven.feature"
+  }
+]
