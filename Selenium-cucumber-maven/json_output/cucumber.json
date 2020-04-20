@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 11415463400,
+              "duration": 13564106600,
               "status": "passed"
             },
             "line": 5,
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 1107749500,
+              "duration": 1627286400,
               "status": "passed"
             },
             "line": 6,
@@ -36,7 +36,7 @@
           },
           {
             "result": {
-              "duration": 2160500,
+              "duration": 8702200,
               "status": "passed"
             },
             "line": 7,
@@ -58,13 +58,13 @@
           },
           {
             "result": {
-              "duration": 14000,
+              "duration": 62300,
               "status": "passed"
             },
             "line": 8,
             "name": "user cicks on sign-in button",
             "match": {
-              "location": "StepDefination.user_cicks_on_sign_in_button()"
+              "location": "StepDefination.user_clicks_on_sign_in_button()"
             },
             "keyword": "Then "
           }

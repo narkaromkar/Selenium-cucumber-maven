@@ -23,7 +23,12 @@ public class StepDefination {
 	}
 
 	@Then("^user cicks on sign-in button$")
-	public void user_cicks_on_sign_in_button() throws Throwable {
+	public void user_clicks_on_sign_in_button() throws Throwable {
 	    
+	}
+	
+	@Then("^user closes browser$")
+	public void user_closes_browser() throws Throwable {
+	    BaseClass.driver.quit();
 	}
 }

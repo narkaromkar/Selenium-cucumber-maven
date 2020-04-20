@@ -38,14 +38,14 @@ formatter.match({
   "location": "StepDefination.user_opens_browser()"
 });
 formatter.result({
-  "duration": 11415463400,
+  "duration": 13564106600,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefination.user_is_on_login_page()"
 });
 formatter.result({
-  "duration": 1107749500,
+  "duration": 1627286400,
   "status": "passed"
 });
 formatter.match({
@@ -62,14 +62,14 @@ formatter.match({
   "location": "StepDefination.user_enters_and(String,String)"
 });
 formatter.result({
-  "duration": 2160500,
+  "duration": 8702200,
   "status": "passed"
 });
 formatter.match({
-  "location": "StepDefination.user_cicks_on_sign_in_button()"
+  "location": "StepDefination.user_clicks_on_sign_in_button()"
 });
 formatter.result({
-  "duration": 14000,
+  "duration": 62300,
   "status": "passed"
 });
 });
