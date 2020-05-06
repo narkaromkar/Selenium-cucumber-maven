@@ -8,14 +8,26 @@ import testUtil.BaseClass;
 
 public class LoginPage extends BaseClass{
 	@FindBy(partialLinkText = "Sign in")
-	WebElement SignIn;
+	WebElement signIn;
+	
+	@FindBy(xpath = "//input[@id=\"email\"]")
+	WebElement email;
+	
+	@FindBy(xpath = "//input[@id=\"passwd\"]")
+	WebElement password;
+	
+	@FindBy(xpath = "//button[@id=\"SubmitLogin\"]")
+	WebElement submit;
 
 	public LoginPage() {
 		PageFactory.initElements(driver, this);
 	}
 	
-	public void login(){
-		SignIn.click();
+	public void login(String un, String pwd){
+		signIn.click();
+		email.sendKeys(un);
+		password.sendKeys(pwd);
+		submit.click();
 	}
 	
 	

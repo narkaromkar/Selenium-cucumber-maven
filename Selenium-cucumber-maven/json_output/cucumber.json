@@ -12,8 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 13564106600,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 5,
             "name": "user opens browser",
@@ -24,8 +23,7 @@
           },
           {
             "result": {
-              "duration": 1627286400,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 6,
             "name": "user is on login page",
@@ -36,35 +34,61 @@
           },
           {
             "result": {
-              "duration": 8702200,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 7,
-            "name": "user enters \"username\" and \"password\"",
+            "name": "user enters username as \"helohelohelo@gmail.com\" and password as \"helohelohelo@gmail.com\" and user clicks on sign-in button",
             "match": {
               "arguments": [
                 {
-                  "val": "username",
-                  "offset": 13
+                  "val": "helohelohelo@gmail.com",
+                  "offset": 25
                 },
                 {
-                  "val": "password",
-                  "offset": 28
+                  "val": "helohelohelo@gmail.com",
+                  "offset": 66
                 }
               ],
-              "location": "StepDefination.user_enters_and(String,String)"
+              "location": "StepDefination.user_enters_username_as_and_password_as_and_user_clicks_on_sign_in_button(String,String)"
             },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "User saves all the prices of womens dress in excel sheet",
+        "description": "",
+        "id": "shopping-website-test;user-saves-all-the-prices-of-womens-dress-in-excel-sheet",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "user clicks on women button",
+            "match": {},
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 62300,
-              "status": "passed"
+              "status": "undefined"
             },
-            "line": 8,
-            "name": "user cicks on sign-in button",
+            "line": 12,
+            "name": "user saves all data in excel sheet",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "user closes browser",
             "match": {
-              "location": "StepDefination.user_clicks_on_sign_in_button()"
+              "location": "StepDefination.user_closes_browser()"
             },
             "keyword": "Then "
           }
@@ -75,6 +99,6 @@
     "description": "",
     "id": "shopping-website-test",
     "keyword": "Feature",
-    "uri": "C:/Users/Omkar/eclipse-workspace/Selenium-cucumber-maven/src/main/java/feature/Selenium-cucumber-maven.feature"
+    "uri": "C:/Users/Omkar/git/Selenium-cucumber-maven/Selenium-cucumber-maven/src/main/java/feature/Selenium-cucumber-maven.feature"
   }
 ]

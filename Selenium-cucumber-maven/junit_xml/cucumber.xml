@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="15.200157">
-<testcase classname="Shopping website test" name="User is able to Sign in successfully" time="15.200157">
-<system-out><![CDATA[Given user opens browser....................................................passed
-Then user is on login page..................................................passed
-Then user enters "username" and "password"..................................passed
-Then user cicks on sign-in button...........................................passed
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="0">
+<testcase classname="Shopping website test" name="User is able to Sign in successfully" time="0">
+<system-out><![CDATA[Given user opens browser....................................................skipped
+Then user is on login page..................................................skipped
+Then user enters username as "helohelohelo@gmail.com" and password as "helohelohelo@gmail.com" and user clicks on sign-in button.skipped
 ]]></system-out>
+</testcase>
+<testcase classname="Shopping website test" name="User saves all the prices of womens dress in excel sheet" time="0">
+<failure message="The scenario has pending or undefined step(s)"><![CDATA[Then user clicks on women button............................................undefined
+Then user saves all data in excel sheet.....................................undefined
+Then user closes browser....................................................skipped
+]]></failure>
 </testcase>
 </testsuite>
