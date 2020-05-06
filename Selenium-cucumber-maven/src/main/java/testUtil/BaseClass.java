@@ -33,8 +33,6 @@ public class BaseClass {
 			workbook = WorkbookFactory.create(file);
 			Sheet sheet = workbook.getSheetAt(0);
 		
-			
-		
 		}
 		catch(IOException e){
 			e.getMessage();
